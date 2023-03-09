@@ -1,0 +1,19 @@
+~ opa
+
+Bartender: O que você quer?
+- Cerveja [if Global.properties_player.age >= 18]
+	set Global.bebida = 'Cerveja'
+- Suco
+	set Global.bebida = 'Suco'
+- Leite com manga =>< leite_com_manga
+- Nada => END
+
+É pra já, meu nobre
+Aqui está o {{Global.bebida}}
+=> END
+
+~ leite_com_manga
+
+Bartender: [shake rate=20 level=10]Você realmente quer isso?[/shake]
+set Global.bebida = 'Leite com manga'
+=> END

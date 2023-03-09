@@ -1,0 +1,14 @@
+[remap]
+
+importer="dialogue_manager_compiler_7"
+type="Resource"
+uid="uid://dpeys3jan4maj"
+path="res://.godot/imported/opa.dialogue-ca5804508d16fd9fafee2e30063f4005.tres"
+
+[deps]
+
+source_file="res://Dialogues/opa.dialogue"
+dest_files=["res://.godot/imported/opa.dialogue-ca5804508d16fd9fafee2e30063f4005.tres"]
+
+[params]
+

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceneovmtxkdia"]
+
+[ext_resource type="Texture2D" uid="uid://bpm8c8wfl7ais" path="res://icon.svg" id="1_lfj6g"]
+[ext_resource type="Script" path="res://Icon.gd" id="2_xk6im"]
+
+[node name="teste1" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+modulate = Color(1, 0.243137, 0.243137, 1)
+position = Vector2(64, 64)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_lfj6g")
+script = ExtResource("2_xk6im")
